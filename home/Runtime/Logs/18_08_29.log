@@ -1,0 +1,25 @@
+[ 2018-08-29T16:03:12+08:00 ] /xxx/ | ERR: (ThinkException) Unknown database 'rubydb'
+[ 2018-08-29T16:03:14+08:00 ] /xxx/ | ERR: (ThinkException) Unknown database 'rubydb'
+[ 2018-08-29T16:03:33+08:00 ] /xxx/index.php | ERR: (ThinkException) Unknown database 'rubydb'
+[ 2018-08-29T16:03:36+08:00 ] /xxx/index.php | ERR: (ThinkException) Unknown database 'rubydb'
+[ 2018-08-29T16:03:40+08:00 ] /xxx/ | ERR: (ThinkException) Unknown database 'rubydb'
+[ 2018-08-29T16:15:22+08:00 ] /xxx/ | INFO: Tag[ app_begin ] --START--
+[ 2018-08-29T16:15:22+08:00 ] /xxx/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003000s ]
+[ 2018-08-29T16:15:22+08:00 ] /xxx/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003000s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.038002s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | SQL: SELECT `id`,`subject`,`message`,`createtime` FROM `think_article` ORDER BY id desc  [ RunTime:0.001000s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Tag[ view_template ] --START--
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Run LocationTemplate Behavior [ RunTime:0.004000s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.004000s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Tag[ view_parse ] --START--
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Run ParseTemplate Behavior [ RunTime:0.087005s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.088005s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Tag[ view_filter ] --START--
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Run ContentReplace Behavior [ RunTime:0.002000s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Run TokenBuild Behavior [ RunTime:0.003001s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Run ShowRuntime Behavior [ RunTime:0.003000s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.010001s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Tag[ view_end ] --START--
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.003000s ]
+[ 2018-08-29T16:15:23+08:00 ] /xxx/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.003000s ]
