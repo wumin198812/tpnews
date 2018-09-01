@@ -1,8 +1,9 @@
 
 # tpnews
-# 
-���裺
-     1���½����ݿ�rubydb����SQL�ļ����е����������ݿ��ļ����½���rubydb���ݿ�
-     2����̨��ʼ�˻�������ֱ�Ϊ ruby97��ruby97
-     3��ǰ̨��ַΪlocalhost/tpnews
-     4����̨��ַΪlocalhost/tpnews/admin.php
+# 只当做学习使用
+# 步骤：
+     1、新建数据库rubydb，从SQL文件夹中导入两个数据库文件到新建的rubydb数据库
+     2、后台初始账户和密码分别为 ruby97，ruby97
+     3、前台地址为localhost/tpnews
+     4、后台地址为localhost/tpnews/admin.php
+     
